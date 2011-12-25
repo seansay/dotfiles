@@ -4,4 +4,4 @@
 # brainstormr=/Users/robbyrussell/Projects/development/planetargon/brainstormr
 #
 
-alais d="cd ~/Dropbox"
+alias d="cd ~/Dropbox"
