@@ -1,11 +1,8 @@
-# Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
 
 EDITOR="emacs"
 
 ZSH_THEME="blinks"
-
-KINDLE_EMAIL="iseansay@free.kindle.com"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
