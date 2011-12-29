@@ -30,11 +30,7 @@ plugins=(textmate osx git brew pip django)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
-export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin
-
-# alias
-
-alias sl="nocorrect sl"
+export PATH=/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:~/bin
 
 # remote servers
 alias sshxiuxiu="ssh xiuxiu.de"
