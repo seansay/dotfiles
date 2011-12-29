@@ -5,8 +5,6 @@ EDITOR="emacs"
 
 ZSH_THEME="blinks"
 
-KINDLE_EMAIL="iseansay@free.kindle.com"
-
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
 
@@ -22,7 +20,9 @@ KINDLE_EMAIL="iseansay@free.kindle.com"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 # COMPLETION_WAITING_DOTS="true"
 
-plugins=(textmate osx git github brew pip django)
+# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
+# Example format: plugins=(rails git textmate ruby lighthouse)
+plugins=(textmate osx git brew pip django)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
