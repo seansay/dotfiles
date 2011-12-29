@@ -2,11 +2,9 @@
 ZSH=$HOME/.oh-my-zsh
 
 EDITOR="emacs"
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+
 ZSH_THEME="blinks"
+
 KINDLE_EMAIL="iseansay@free.kindle.com"
 
 # Set to this to use case-sensitive completion
@@ -26,7 +24,7 @@ KINDLE_EMAIL="iseansay@free.kindle.com"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(textmate osx git brew pip django)
+plugins=(textmate osx git github brew pip django)
 
 source $ZSH/oh-my-zsh.sh
 # Customize to your needs...
