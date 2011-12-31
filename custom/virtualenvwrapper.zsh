@@ -1,0 +1,1 @@
+export VIRTUALENVWRAPPER_VIRTUALENV_ARGS='--no-site-packages'
