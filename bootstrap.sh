@@ -6,4 +6,6 @@ plugins=(textmate osx git github git-flow brew pip django extract autojump encod
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
 ZSH_THEME="sean"
+
+ZSH=$(dirname $0) 
 source $ZSH/oh-my-zsh.sh
