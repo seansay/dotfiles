@@ -3,14 +3,14 @@ config nudgePercentOf screenSize
 config resizePercentOf screenSize
 
 # Resize Bindings
-bind right:alt       resize +10% +0
-bind left:alt        resize -10% +0
-bind up:alt          resize +0   -10%
-bind down:alt        resize +0   +10%
-bind right:ctrl;alt;shift  resize -10% +0 bottom-right
-bind left:ctrl;alt;shift   resize +10% +0 bottom-right
-bind up:ctrl;alt;shift     resize +0   +10% bottom-right
-bind down:ctrl;alt;shift   resize +0   -10% bottom-right
+bind right:alt       resize +5% +0
+bind left:alt        resize -5% +0
+bind up:alt          resize +0   -5%
+bind down:alt        resize +0   +5%
+bind right:alt;shift  resize -5% +0 bottom-right
+bind left:alt;shift   resize +5% +0 bottom-right
+bind up:alt;shift     resize +0   +5% bottom-right
+bind down:alt;shift   resize +0   -5% bottom-right
 
 # Push Bindings
 bind right:ctrl;cmd  push right bar-resize:0.45*screenSizeX
@@ -19,10 +19,10 @@ bind up:ctrl;cmd     push up    bar-resize:screenSizeY/2
 bind down:ctrl;cmd   push down  bar-resize:screenSizeY/2
 
 # Nudge Bindings
-bind f3  nudge -10% +0
-bind f4  nudge +10% +0
-bind f11  nudge +0   -10%
-bind f12  nudge +0   +10%
+bind f3  nudge -5% +0
+bind f4  nudge +5% +0
+bind f11  nudge +0   -5%
+bind f12  nudge +0   +5%
 
 # corner
 bind f18:alt corner top-left resize:screenSizeX/2;screenSizeY/2 # top-left
