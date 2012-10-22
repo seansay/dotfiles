@@ -9,7 +9,7 @@ NODE_PATH        =  /usr/local/share/npm/lib/node_modules
 
 # Extra files to include
 #
-myExtraIncludes = ".tm_properties,.htaccess,.gitignore,.env,.powenv"
+myExtraIncludes = ".tm_properties,.htaccess,.gitignore,.env,.powenv,.rvmrc"
 fileBrowserGlob  = "{*,$myExtraIncludes}"
 include = "{$include,$myExtraIncludes}"
 
