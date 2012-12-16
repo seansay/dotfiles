@@ -1,0 +1,5 @@
+# unbind the default tmux prefix key
+unbind C-b
+
+# bind Caps-Lock to F10 in PCKeyboardHack
+set -g prefix F10
