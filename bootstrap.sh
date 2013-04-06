@@ -10,3 +10,4 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 ZSH_THEME="sean"
 
 source $ZSH/oh-my-zsh.sh
+
