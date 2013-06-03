@@ -1,9 +1,8 @@
 ZSH=$(dirname $0)
 
-export EDITOR="emacs"
 export PATH=$PATH:~/bin:$ZSH/bin
 
-plugins=(safe-paste textmate osx git github git-flow brew pip django extract autojump encode64 gem rails3 rake lein cake rvm ruby bundler vagrant zsh-syntax-highlighting golang)
+plugins=(safe-paste textmate osx git github  brew pip django extract autojump encode64 gem rails3 rake rvm ruby bundler vagrant zsh-syntax-highlighting golang)
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets pattern cursor)
 
