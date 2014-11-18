@@ -1,0 +1,17 @@
+'global':
+  'exception-reporting':
+    'userId': 'a728a6aa-7b05-2e5d-7e8a-45379e1f960b'
+  'welcome':
+    'showOnStartup': false
+  'editor':
+    'fontSize': 15
+    'invisibles': {}
+  'core':
+    'themes': [
+      'atom-light-ui'
+      'base16-tomorrow-dark-theme'
+    ]
+'.c.source ++ *':
+  'editor': {}
+'.c.source':
+  'editor': {}
